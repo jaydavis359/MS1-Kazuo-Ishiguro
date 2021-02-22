@@ -14,9 +14,9 @@ body {
 
 h1 {
     font-family: "PT-Serif";
-    font-size: 340%;
+    font-size: 350%;
     letter-spacing: 4px;
-    color: white;
+    color: #c5a374;
 }
 
 .navbar a {
@@ -66,6 +66,7 @@ h1 {
 }
 .new-book-container {
     background-color: #78afae;
+    margin-bottom: 3rem;
 }
 
 .new-book {
@@ -83,11 +84,15 @@ h1 {
     padding-bottom: 2rem;
 }
 
+.btn-secondary {
+    color: #c5a374;
+}
+
 /* footer customisations */
 
 footer {
     background-color: #343a40;
-    color: white;
+    color: #c5a374;
 }
 
 
@@ -109,7 +114,7 @@ footer {
 
 .social-links li a i {
     font-size: 30px;
-    color: white;
+    color: #c5a374;
     margin-right: 20px;
     padding-top: 2rem;
 }
@@ -121,8 +126,8 @@ footer {
 /* About the author page */
 
 .page-heading {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     padding-left: 2rem;
     font-weight: 500;
 }
@@ -145,3 +150,14 @@ footer {
 }
 
 /* Works page */
+
+.books-container {
+    padding-top: 4rem;
+}
+.card {
+    position: relative;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
+}
+
