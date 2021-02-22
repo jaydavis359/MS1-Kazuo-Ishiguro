@@ -85,7 +85,7 @@ h1 {
 }
 
 .btn-secondary {
-    color: #c5a374;
+    color: white;
 }
 
 /* footer customisations */
@@ -140,7 +140,7 @@ footer {
 
 .embed-responsive {
     margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .embed-responsive-item {
@@ -156,8 +156,11 @@ footer {
 }
 .card {
     position: relative;
-    padding: 2rem;
+    padding:0;
     margin-bottom: 4rem;
     margin-right: 4rem;
 }
 
+.card-body {
+    background-color: lightgray;
+}
