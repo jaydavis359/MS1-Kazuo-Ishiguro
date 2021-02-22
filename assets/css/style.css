@@ -6,7 +6,9 @@ header {
 
 body {
     font-family: Raleway;
+    background-color: #d3d3d3;
 }
+
 
 /* Navbar Customisations */
 
@@ -35,7 +37,9 @@ h1 {
     border:0px;
 }
 
-
+.fixed-top {
+    margin-bottom: 0;
+}
 
 /* Landing Image */
 
@@ -50,10 +54,10 @@ h1 {
 
 .fa-chevron-down {
     color: white;
-    font-size: 50px;
+    font-size: 25px;
     position: relative;
     left: 48%;
-    top: 48%;
+    top: 30%;
     
 }
 .jumbotron {
@@ -113,3 +117,31 @@ footer {
 .disclaimer {
     padding-top: 2rem;
 }
+
+/* About the author page */
+
+.page-heading {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+}
+
+.about-photo {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.embed-responsive {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.embed-responsive-item {
+    width: 90%;
+    height:90%;
+    object-fit: contain;
+}
+
+/* Works page */
