@@ -12,13 +12,13 @@ body {
 
 h1 {
     font-family: "PT-Serif";
-    font-size: 320%;
+    font-size: 340%;
     letter-spacing: 4px;
+    color: white;
 }
 
-.navbar-brand {
-    padding-top: 2rem;
-    padding-left: 2rem;
+.navbar a {
+    text-decoration: none;
 }
 
 .navbar-nav {
@@ -28,5 +28,40 @@ h1 {
 .nav-item {
     padding-right: 2rem;
     font-size: 120%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+/* Landing Image */
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/Ishiguro-scaled3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: lightgray;
+}
+.new-book-container {
+    background-color: #78afae;
+}
+
+.new-book {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.klara-text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
 }

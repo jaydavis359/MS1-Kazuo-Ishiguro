@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,57 +17,81 @@
 <body>
     <!-- Bootstrap 4 Grid System and Components In Use -->
     <!-- Navagation header as per Bootstrap Nav Documentation -->
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a href="index.html" class="navbar-brand">
-            <h1>Kazuo Ishiguro</h1>
-        </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-menu">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Works</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-
-    </nav>
-
-
-
-
-
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a href="index.html" class="navbar">
+                <h1>Kazuo Ishiguro</h1>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="works.html" class="nav-link">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!-- Landing Page Hero Image -->
 
+    <div class="container-fluid callout-container"></div>
 
+    <!-- Wecome text -->
 
-
-    <!-- Welcome Jumbotron Text -->
-
-
-
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-12">
+                <p>
+                <h4>Welcome to the official website of nobel prize winning author Kazuo Ishiguro.</h4>
+                </p>
+            </div>
+        </div>
+    </div>
 
     <!-- New Book Image and Info -->
 
-
-
-
+    <div class="container-fluid new-book-container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="/assets/images/new novel.jpg" class="img-fluid new-book" alt="new book">
+            </div>
+        </div>
+        <div class="col-12 text-center klara-text">
+            <p>
+            <h5>The wait is nearly over, Klara and the Sun, the first novel by Kazuo
+                Ishiguro since he was awarded the Nobel Prize in Literature, tells the story of Klara, an Artificial
+                Friend with outstanding observational qualities, who, from her place in the store, watches carefully the
+                behavior of those who come in to browse, and of those who pass on the street outside. She remains
+                hopeful that a customer will soon choose her.</h5>
+            </p>
+        </div>
+    </div>
 
     <!-- Footer with email sign up and social links -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    sign up
+                </div>
+                <div class="col-md-6 text-center">
+                    social links
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
