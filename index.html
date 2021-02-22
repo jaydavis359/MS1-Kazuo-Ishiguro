@@ -46,7 +46,9 @@
 
     <!-- Landing Page Hero Image -->
 
-    <div class="container-fluid callout-container"></div>
+    <div class="container-fluid callout-container">
+        <i class="fas fa-chevron-down"></i>
+    </div>
 
     <!-- Wecome text -->
 
@@ -54,7 +56,8 @@
         <div class="row jumbotron">
             <div class="col-12">
                 <p>
-                <h4>Welcome to the official website of nobel prize winning author Kazuo Ishiguro.</h4>
+                <h3>Welcome</h3>
+                <h3>This is the official website of nobel prize winning author Kazuo Ishiguro.</h3>
                 </p>
             </div>
         </div>
@@ -77,17 +80,60 @@
                 hopeful that a customer will soon choose her.</h5>
             </p>
         </div>
+        <div class="text-center order-button">
+            <a href="http://www.amazon.co.uk" class="btn btn-secondary btn-lg">Order Now!</a>
+        </div>
     </div>
 
     <!-- Footer with email sign up and social links -->
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid footer-content">
+            <!-- email sign up from code institute example MS1 "fiona apple" and resume project-->
             <div class="row">
-                <div class="col-md-6 text-center">
-                    sign up
+                <div class="col-lg-6 col-md-12">
+                    <div class="mail-content-container">
+                        <h4 class="mr-auto"><i class="fa fa-envelope" aria-hidden="true"></i>Stay Updated With Latest
+                            News</h4>
+                        <form class="form-inline" on-submit="myFunction()">
+                            <div class="form-group mx-sm-10">
+                                <input type="email" class="form-control form-control-lg" id="signupemail"
+                                    placeholder="Email" size="35" required="">
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-secondary email-submit-button">
+                        </form>
+                    </div>
                 </div>
-                <div class="col-md-6 text-center">
-                    social links
+                <!-- social section with some help from resume project -->
+                <div class="col-lg-6 col-md-12 text-center">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="http://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.twitter.com" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.goodreads.com" target="_blank">
+                                <i class="fab fa-goodreads-g" aria-hidden="true"></i>
+                                <span class="sr-only">Goodreads</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.reddit.com" target="_blank">
+                                <i class="fab fa-reddit-alien" aria-hidden="true"></i>
+                                <span class="sr-only">Reddit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 text-center disclaimer">
+                    <h5>This Site Is For Educational Purposes Only</h5>
                 </div>
             </div>
         </div>

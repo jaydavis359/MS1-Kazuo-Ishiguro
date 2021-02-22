@@ -31,6 +31,12 @@ h1 {
     letter-spacing: 2px;
 }
 
+.navbar-toggler {
+    border:0px;
+}
+
+
+
 /* Landing Image */
 
 .callout-container {
@@ -42,6 +48,14 @@ h1 {
     position: relative;
 }
 
+.fa-chevron-down {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 48%;
+    top: 48%;
+    
+}
 .jumbotron {
     margin-bottom: 0;
     background-color: lightgray;
@@ -61,7 +75,41 @@ h1 {
     text-align: center;
 }
 
+.order-button {
+    padding-bottom: 2rem;
+}
+
+/* footer customisations */
+
 footer {
-    background-color: #212529;
+    background-color: #343a40;
     color: white;
+}
+
+
+.footer-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.fa-envelope {
+    margin-right: 6px;
+    margin-left: 8px;
+}
+
+.form-control {
+    margin-right: 4px;
+}
+
+.social-links li a i {
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    padding-top: 2rem;
+}
+
+.disclaimer {
+    padding-top: 2rem;
 }
