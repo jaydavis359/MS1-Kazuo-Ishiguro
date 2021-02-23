@@ -6,7 +6,7 @@ header {
 
 body {
     font-family: Raleway;
-    background-color: #d3d3d3;
+    background-color: #f4f3ec;
 }
 
 
@@ -14,7 +14,7 @@ body {
 
 h1 {
     font-family: "PT-Serif";
-    font-size: 350%;
+    font-size: 300%;
     letter-spacing: 4px;
     color: #c5a374;
 }
@@ -66,7 +66,7 @@ h1 {
 
 
 .fa-chevron-down {
-    color: white;
+    color: black;
     font-size: 25px;
     position: relative;
     left: 48%;
@@ -75,11 +75,11 @@ h1 {
 }
 .jumbotron {
     margin-bottom: 0;
-    background-color: lightgray;
+    background-color: #c5a374;
 }
 .new-book-container {
     background-color: #78afae;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
 }
 
 .new-book {
@@ -124,7 +124,7 @@ footer {
 .form-control {
     margin-right: 4px;
 }
-
+/* social links with help from resume project */
 .social-links li a i {
     font-size: 30px;
     color: #c5a374;
@@ -151,6 +151,10 @@ footer {
     object-fit: contain;
 }
 
+.youtube-container {
+    margin-top: 2rem;
+}
+
 .embed-responsive {
     margin-bottom: 3rem;
     margin-top: 2rem;
@@ -167,13 +171,28 @@ footer {
 .books-container {
     padding-top: 4rem;
 }
+/* Thank you stackoverflow for card centering! */
 .card {
-    position: relative;
-    padding:0;
+    margin: 0 auto;
     margin-bottom: 4rem;
-    margin-right: 4rem;
 }
 
+.card-img-top {
+    height: 442px;
+    width: 286px;
+}
 .card-body {
-    background-color: lightgray;;
+    background-color: #343a40;
+}
+
+.card-title {
+    color: #c5a374;
+}
+
+.fa-amazon {
+    margin-left: 6px;
+}
+
+.fa-goodreads {
+    margin-left: 6px;
 }
