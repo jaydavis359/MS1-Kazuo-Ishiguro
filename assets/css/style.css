@@ -106,11 +106,16 @@ h1 {
     color: white;
 }
 
+.btn-secondary:hover {
+    background-color: #c5a374;
+}
+
 /* footer customisations */
 
 footer {
     background-color: #343a40;
     color: #c5a374;
+    margin-bottom: 0;
 }
 
 
@@ -137,6 +142,11 @@ footer {
     padding-top: 2rem;
 }
 
+.social-links i:hover {
+    color: white;
+}
+
+
 .disclaimer {
     padding-top: 2rem;
 }
@@ -154,6 +164,10 @@ footer {
     width: 90%;
     height: 90%;
     object-fit: contain;
+}
+
+.bio-info {
+    font-size: 18px;
 }
 
 .youtube-container {
@@ -205,13 +219,14 @@ footer {
 /* Contact Page */
 
 .query-text {
+    margin-left: 1rem;
     margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .query-form {
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 16rem;
 }
 
 .form-control {
