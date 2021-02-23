@@ -37,6 +37,7 @@ h1 {
     border:0px;
 }
 
+
 .fixed-top {
     margin-bottom: 0;
 }
@@ -45,12 +46,24 @@ h1 {
 
 .callout-container {
     height: 100vh;
-    background: url(../images/Ishiguro-scaled3.jpg) no-repeat center center fixed;
+    background: url(../images/KazuoAbout.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
     position: relative;
 }
+
+@media screen and (max-width: 667px) {
+  .callout-container {
+    height: 100vh;
+    background: url(../images/KazuoAbout.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+}
+
 
 .fa-chevron-down {
     color: white;
@@ -128,7 +141,7 @@ footer {
 .page-heading {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
     font-weight: 500;
 }
 
@@ -162,5 +175,5 @@ footer {
 }
 
 .card-body {
-    background-color: lightgray;
+    background-color: lightgray;;
 }
