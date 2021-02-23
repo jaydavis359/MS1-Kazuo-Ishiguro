@@ -66,7 +66,7 @@ h1 {
 
 
 .fa-chevron-down {
-    color: black;
+    color: #c5a374;
     font-size: 25px;
     position: relative;
     left: 48%;
@@ -75,8 +75,13 @@ h1 {
 }
 .jumbotron {
     margin-bottom: 0;
-    background-color: #c5a374;
+    background-color: #343a40;
 }
+
+.jumbotron h3 {
+    color: #c5a374;
+}
+
 .new-book-container {
     background-color: #78afae;
     margin-bottom: 0;
@@ -195,4 +200,21 @@ footer {
 
 .fa-goodreads {
     margin-left: 6px;
+}
+
+/* Contact Page */
+
+.query-text {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.query-form {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.form-control {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }

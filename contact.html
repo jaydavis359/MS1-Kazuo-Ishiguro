@@ -52,30 +52,80 @@
     <!-- Contact Information and Form -->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
-                <h4>For Interview Requests And</h4>
-                <h4>Speaking Equiries</h4>
+            <div class="col query-text">
+                <h3>Interview Requests And Speaking Enquiries:</h3>
+            </div>
+            <!-- Bootstrap form section with help from resume project --> 
+        </div>
+        <div class="col query-form">
+                <form>
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                        required />
+                    <textarea rows="5" name="query-description" id="query-description" class="form-control"
+                        placeholder="Query-description" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+    <!-- Footer with email sign up and social links -->
+    <footer>
+        <div class="container-fluid footer-content">
+            <!-- email sign up from code institute example MS1 "fiona apple" and resume project-->
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="mail-content-container">
+                        <h4 class="mr-auto"><i class="fa fa-envelope" aria-hidden="true"></i>Stay Updated With The
+                            Latest
+                            News</h4>
+                        <form class="form-inline" on-submit="myFunction()">
+                            <div class="form-group mx-sm-10">
+                                <input type="email" class="form-control form-control-lg" id="signupemail"
+                                    placeholder="Email" size="35" required="">
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-secondary email-submit-button">
+                        </form>
+                    </div>
+                </div>
+                <!-- social section with some help from resume project -->
+                <div class="col-lg-6 col-md-12 text-center">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="http://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.twitter.com" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.goodreads.com" target="_blank">
+                                <i class="fab fa-goodreads-g" aria-hidden="true"></i>
+                                <span class="sr-only">Goodreads</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://www.reddit.com" target="_blank">
+                                <i class="fab fa-reddit-alien" aria-hidden="true"></i>
+                                <span class="sr-only">Reddit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 text-center disclaimer">
+                    <h5>This Site Is For Educational Purposes Only</h5>
+                </div>
             </div>
         </div>
-        <div>
-            <form>
-
-            </form>
-        </div>
-    </div>
-
-
-    
-
-
-
-
-    
-
-
-
-
-    <!-- Footer with email sign up and social links -->
+    </footer>
 
 
 
