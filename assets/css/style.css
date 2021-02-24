@@ -90,6 +90,7 @@ h1 {
 .new-book {
     padding-top: 3rem;
     padding-bottom: 2rem;
+    position: relative;
 }
 
 .klara-text {
@@ -168,6 +169,7 @@ footer {
 
 .bio-info {
     font-size: 18px;
+    text-align: justify;
 }
 
 .youtube-container {

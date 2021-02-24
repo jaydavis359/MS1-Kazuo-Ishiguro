@@ -2,9 +2,10 @@
 
 ![Heading Responsive image](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Testing/ReadmeHeader.jpg)
 
+
 [View the Live website here](https://jaydavis359.github.io/MS1-Kazuo-Ishiguro/)
 
-Kazuo Isiguro is a fictional Offical website for the author Kazuo Ishiguro.
+### Kazuo Isiguro is a fictional Offical website for the author Kazuo Ishiguro.
 
 The website is a first point of contact for anyone who is a fan of his work, but equally for someone looking for information and the ability to purchase his books.
 The website contains a Wikipedia type bio and video interview with the author, a book gallery with the option to purchase or read reviews from external sources,
@@ -34,7 +35,6 @@ steming from visitors who come to the site specificlly looking to buy his books,
 * [About Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/AboutWireframe%201_1.pdf)
 * [Works Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/WorksWireframe%201.pdf)
 * [Contact Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/ContactWireframe%201.pdf)
-
 
 ## Features
 
