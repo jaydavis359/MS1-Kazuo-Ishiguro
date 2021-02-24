@@ -26,7 +26,7 @@ steming from visitors who come to the site specificlly looking to buy his books,
 
 ### Wireframes
 
-* [Home Page](Wireframes/Home Wireframe 1.pdf)
+* [Home Page](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Wireframes/Home%20Wireframe%201.pdf)
 * [About Page](Wireframes/AboutWireframe 1_1.pdf)
 * [Works Page](Wireframes/WorksWireframe 1.pdf)
 * [Contact Page](Wireframes/ContactWireframe 1.pdf)
