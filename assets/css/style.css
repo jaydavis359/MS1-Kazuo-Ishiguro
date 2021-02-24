@@ -200,6 +200,7 @@ footer {
     height: 442px;
     width: 286px;
 }
+
 .card-body {
     background-color: #343a40;
 }
@@ -226,10 +227,20 @@ footer {
 
 .query-form {
     margin-top: 2rem;
-    margin-bottom: 16rem;
+    margin-bottom: 4rem;
 }
 
 .form-control {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.agent-text {
+    margin-bottom: 10rem;
+}
+
+.fa-book-open {
+    color: #343a40;
+    margin-right: 4px; 
+}
+   
