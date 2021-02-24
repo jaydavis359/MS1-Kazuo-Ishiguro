@@ -26,7 +26,10 @@ steming from visitors who come to the site specificlly looking to buy his books,
 
 ### Wireframes
 
-* [Homepage](/workspace/MS1-Kazuo-Ishiguro/Wireframes/Home Wireframe 1.pdf)
+* [Home Page](Wireframes/Home Wireframe 1.pdf)
+* [About Page](Wireframes/AboutWireframe 1_1.pdf)
+* [Works Page](Wireframes/WorksWireframe 1.pdf)
+* [Contact Page](Wireframes/ContactWireframe 1.pdf)
 
 
 ## Features
