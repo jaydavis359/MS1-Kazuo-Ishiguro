@@ -87,19 +87,64 @@ speaking egagements etc., the form would then but pushed to authors publisher.
 
 The website is built using HTML and CSS programming languages.
 
-* [Gitpod](https://gitpod.io/) Developer environment was used to write the code.
-* [Github](https://github.com/) Used to host and deploy the code.
-* [Bootstrap 4](https://getbootstrap.com/) Used primarily for its responsive grid sysyem layout, also bootstrap components documentation for Navagation,
+* [Gitpod](https://gitpod.io/) - Developer environment was used to write the code.
+* [Github](https://github.com/) - Used to host and deploy the code.
+* [Bootstrap 4](https://getbootstrap.com/) - Used primarily for its responsive grid sysyem layout, also bootstrap components documentation for Navagation,
 the 'card' components on the works page, and some of the forms details.
-* [Google Fonts](https://fonts.google.com/) Used for the Websites various fonts.
-* [Font Awsome](https://fontawesome.com/) the Font Awesome library was used for the icons the website.
-* [favicon.io](favicon.io) Was used to create the favicon for the browser tab.
-* [TinyJPG](https://tinyjpg.com/) Used to compress the websites images.
- 
+* [Google Fonts](https://fonts.google.com/) - Used for the websites various fonts.
+* [Font Awsome](https://fontawesome.com/) - The Font Awesome library was used for the icons the website.
+* [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
+* [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
+* [YouTube](youtube.com) - Used for the embedded video.
+* [Amazon](amazon.co.uk) - Used as the redirect for purchasing of the authors work.
+* [Goodreads](goodreads.com) - Used as the redirect for reviews of the authors work.
+
 
 
 ## Testing
 
+
+
 ## Deployment
 
+This Website was developed using Gitpod, commited using git, and pushed to Github via the terminal function. 
+
+To deploy this website to GitHub pages from its repository the following actions were taken:
+
+* Log into Github
+* From the list of repositorys displayed, select jaydavis359/MS1-Kazuo-Ishiguro.
+* On the next screen select the settings tab on the right side of the menu.
+* Scroll down this page until you reach the GitHub Pages Section.
+* Under the 'Source' Section of this page select the option currently labelled 'none' and change it to 'master branch'.
+* On complection of this action the page will be refreshed and the website will be deployed.
+* The link to the website will now be displayed in the Github Pages section of the settings menu.
+
+To run the Website locally :
+
+* It can be [Forked](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+, which makes an editable copy of the repository, without affecting the original.
+* It can also be [Cloned](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) which creates a 'remote' repository
+which can be synced with the main one.
+
 ## Credits
+
+* [Bootstrap](https://getbootstrap.com/) components documentation was used for several elements, 'Navbar' 'Cards' and 'Form' details.
+* [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w) YouTube channel for help with code and execution
+of the navbar collapse function.
+* [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for code and formatting issues.
+
+### Images and video :
+
+* KazuoAbout.jpg was taken from a [New Yorker](newyorker.com) article, copyright: Richard Pohle / 
+The Times / News Syndication / Redux.
+* new-novel.jpg was taken from the Kazuo Ishiguro [Facebook](facebook.com) page, copyright: Unknown.
+* KazuoAbout2.jpeg was taken from a [LA Times](latimes.com) article , copyright: Ben Stansall / AFP/Getty Images.
+* The embedded YouTube video is taken from the [Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA)
+youtube channel.
+* Book covers on the works page were taken from the Kazuo Ishiguro [Wikipedia](wikipedia.com) page.
+
+### Acknowledgements
+
+* I would like to thank my mentor Excellence Ilesanmi for his much needed help to get past the finish line.
+
+### This website is for educational purposes only.
