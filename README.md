@@ -1,6 +1,6 @@
 # Kazuo Ishiguro
 
-![Heading Responsive image](https://github.com/jaydavis359/MS1-Kazuo-Ishiguro/blob/master/Testing/ReadmeHeader.jpg)
+![Heading Responsive image](Testing/ReadmeHeader.jpg)
 
 
 [View the Live website here](https://jaydavis359.github.io/MS1-Kazuo-Ishiguro/)
@@ -16,8 +16,8 @@ there is also a contact section for professional engagement, to request intervie
 ### This website is for :
 
 * Visitors to the website are looking for information about the author and access to his back catalogue.
-* Hosting this website allows a branch of communication with those interested in the authors work, and also an extra revenue stream, 
-steming from visitors who come to the site specificlly looking to buy his books, but also from those seeking information but find simple purchase options alongside that information.
+* Hosting this website allows a branch of communication to those interested in the authors work, and also an extra revenue stream, 
+steming from visitors who come to the site specificlly looking to buy his books, but also from those initially seeking information, but find simple purchase options alongside that information.
 
 ### User Stories
 
@@ -38,7 +38,65 @@ steming from visitors who come to the site specificlly looking to buy his books,
 
 ## Features
 
+The website is designed to be aesthetically pleasing while having full featured navagation options, the classic color palate and fonts which extend across
+the whole site, allow for easy viewing of the different elements.
+
+### Existing Features:
+
+### Home Page
+
+* The home page features a responsive navagation bar with links to the other three pages.
+* It features an almost fullscreen hero image of the author, which lets the visitor know they
+are in exactly the right place .
+* When the page is scrolled down the home screen features a 'Welcome' jumbotron.
+* Next, another image/graphic show an upcoming book relaese, accompanied by a 'call to action' button which takes the visitor to an external website to purchase the novel.
+* Finally the footer of the page contains an email sign up with submit button for those interested in being kept up to date with news and events, in addition to this
+there are social media icons which direct to the external websites.
+
+### About Page 
+
+* The About page again features the navagation bar.
+* Below the nav bar is a relaxing / fun image of the author sitting on a bench, to ease the visitor in the bio section.
+* A short bio section adapted from the authors [Wikipedia](https://en.wikipedia.org/wiki/Kazuo_Ishiguro) page sits in the middle of the page.
+* Just above the footer is an embedded youtube video, which is an interview with the author Kazuo Ishiguro, this was taken from the
+[Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA) youtube channel. it is quite a general interest video,
+which should appeal to most visitors to the website.
+* The same footer as before sits at the bottom of the page.
+
+### Works Page
+
+* Navagation bar as before.
+* A gallery type section is the focus of this page, the images show the authors work of novels.
+* Each image of a novel has below it two 'call to action' buttons, one gives the visitor the option to buy that novel by visiting an external website (amazon.co.uk).
+The second button offers the visitor the opportunity to read reviews of the novel, also by visiting an external website (goodreads.com).
+* Footer as before.
+
+### Contact Page 
+
+* Navagation bar as before.
+* Form section which is directed at more professional visitors to the website, looking to contact the author to request interviews,
+speaking egagements etc., the form would then but pushed to authors publisher. 
+
+## Features Left to Implement
+
+* More media content in the form of published interviews, video interviews, and also podcast / radio appearances.
+* An on site purchase system, so that the visitor is not dericted to an external webite in order to purchase.
+* The option to change the written language of the page for non english speaking visitors
+
 ## Technologies Used
+
+The website is built using HTML and CSS programming languages.
+
+* [Gitpod](https://gitpod.io/) Developer environment was used to write the code.
+* [Github](https://github.com/) Used to host and deploy the code.
+* [Bootstrap 4](https://getbootstrap.com/) Used primarily for its responsive grid sysyem layout, also bootstrap components documentation for Navagation,
+the 'card' components on the works page, and some of the forms details.
+* [Google Fonts](https://fonts.google.com/) Used for the Websites various fonts.
+* [Font Awsome](https://fontawesome.com/) the Font Awesome library was used for the icons the website.
+* [favicon.io](favicon.io) Was used to create the favicon for the browser tab.
+* [TinyJPG](https://tinyjpg.com/) Used to compress the websites images.
+ 
+
 
 ## Testing
 

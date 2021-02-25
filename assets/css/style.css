@@ -23,9 +23,6 @@ h1 {
     text-decoration: none;
 }
 
-.navbar-nav {
-    padding-top: 4rem;
-}
 
 .nav-item {
     padding-right: 2rem;
@@ -90,10 +87,11 @@ h1 {
 .new-book {
     padding-top: 3rem;
     padding-bottom: 2rem;
-    position: relative;
+    max-width: 100%;
 }
 
 .klara-text {
+    font-size: 20px;
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -135,6 +133,12 @@ footer {
 .form-control {
     margin-right: 4px;
 }
+
+.email-submit-button {
+    height: 48px;
+    margin-left: 4px;
+}
+
 /* social links with help from resume project */
 .social-links li a i {
     font-size: 30px;
@@ -155,9 +159,9 @@ footer {
 /* About the author page */
 
 .page-heading {
+    text-align: center;
     padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 4rem;
+    padding-bottom: 1rem;
     font-weight: 500;
 }
 
@@ -165,6 +169,13 @@ footer {
     width: 90%;
     height: 90%;
     object-fit: contain;
+}
+
+@media screen and (max-width: 667px) {
+    .about-photo {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .bio-info {
@@ -196,6 +207,7 @@ footer {
 .card {
     margin: 0 auto;
     margin-bottom: 4rem;
+    width: 18rem;
 }
 
 .card-img-top {
@@ -245,4 +257,4 @@ footer {
     color: #343a40;
     margin-right: 4px; 
 }
-   
+ 
