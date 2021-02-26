@@ -92,6 +92,14 @@ image on smaller devices.
 * On very large screen devices the book items on the 'works' page would spread out quite far apart, this was also 
 fixed with a 'media query' setting a max-width of 80% for the books container on screens larger than 1200px.
 
+## Devices 
+
+In addition to emulated devices in chrome dev tools the Website was inspected on the following physical devices:
+* Surface pro 4 12" screen
+* Surface pro 4 connected to 27" monitor.
+* Samsung Galaxy S9 Plus
+* Apple Macbook Air 2017
+* Apple iphone 6s
 
 
 
