@@ -98,6 +98,7 @@ the 'card' components on the works page, and some of the forms details.
 * [YouTube](youtube.com) - Used for the embedded video.
 * [Amazon](amazon.co.uk) - Used as the redirect for purchasing of the authors work.
 * [Goodreads](goodreads.com) - Used as the redirect for reviews of the authors work.
+* [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en) Chrome extension, which I used to select my color palate.
 
 
 

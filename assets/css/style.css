@@ -21,6 +21,7 @@ h1 {
 
 @media screen and (max-width: 568px) {
     h1 {
+        font-family: "PT-serif";
         letter-spacing: 0;
         padding-left: 10px;
         padding-top: 4px;
