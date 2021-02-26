@@ -1,6 +1,6 @@
 # Kazuo Ishiguro
 
-![Heading Responsive image](Testing/ReadmeHeader.jpg)
+![Heading Responsive image](Testing/Responsive.jpg)
 
 
 [View the Live website here](https://jaydavis359.github.io/MS1-Kazuo-Ishiguro/)
