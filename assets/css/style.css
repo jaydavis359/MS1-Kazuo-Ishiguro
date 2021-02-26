@@ -65,18 +65,6 @@ h1 {
     position: relative;
 }
 
-@media screen and (max-width: 667px) {
-  .callout-container {
-    height: 100vh;
-    background: url(../images/KazuoAbout.jpg) no-repeat center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-}
-
-
 .fa-chevron-down {
     color: #c5a374;
     font-size: 25px;
@@ -184,6 +172,7 @@ footer {
     width: 90%;
     height: 90%;
     object-fit: contain;
+    padding-top: 2rem;
 }
 
 @media screen and (max-width: 667px) {

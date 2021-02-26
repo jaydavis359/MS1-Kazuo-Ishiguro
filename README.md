@@ -104,7 +104,7 @@ the 'card' components on the works page, and some of the forms details.
 
 ## Testing
 
-
+Details can be found on a separate [Testing](Testing.md) page.
 
 ## Deployment
 
@@ -143,6 +143,8 @@ The Times / News Syndication / Redux.
 * The embedded YouTube video is taken from the [Nobel Prize](https://www.youtube.com/channel/UC-V6odR7HzLCuqjYeowPjLA)
 youtube channel.
 * Book covers on the works page were taken from the Kazuo Ishiguro [Wikipedia](wikipedia.com) page.
+* New book synopsis is edited version of [Amazon](https://www.amazon.co.uk/gp/product/057136487X?pf_rd_r=2M409KDTHTP0K7R7PAYF&pf_rd_p=6e878984-68d5-4fd2-b7b3-7bc79d9c8b60&pd_rd_r=ed44cf05-457c-407d-87ae-0d4458f72874&pd_rd_w=PnJ98&pd_rd_wg=TEZoq&ref_=pd_gw_unk)
+book synopsis.
 
 ### Acknowledgements
 
