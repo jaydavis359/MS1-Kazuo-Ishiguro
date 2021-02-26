@@ -203,6 +203,19 @@ footer {
 .books-container {
     padding-top: 4rem;
 }
+
+@media screen and (min-width: 1200px) {
+.books-container { 
+    max-width: 80%;
+}
+}
+
+@media screen and (max-width: 667px) {
+.books-container {
+    padding-top: 2rem;
+}
+}
+
 /* Thank you stackoverflow for card centering! */
 .card {
     margin: 0 auto;
@@ -239,6 +252,13 @@ footer {
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 667px) {
+    .query-text {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
 .query-form {
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -251,6 +271,12 @@ footer {
 
 .agent-text {
     margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 667px) {
+.agent-text {
+    margin-bottom: 6rem;
+}
 }
 
 .fa-book-open {
