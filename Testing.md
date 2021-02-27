@@ -1,7 +1,7 @@
 # Testing
 
 * All HTML code verified through [W3C HTML Validation Service](https://validator.w3.org/).
-HTML Code was run through this validator, and no issues were found.
+HTML Code was run through this validator, which flagged an invalid 'alt' value on my embedded video, and once removed passed with no further issues.
 * All CSS code verified through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 CSS code was run through this validator and no issues were found.
 * Basic responsiveness checked through [Am I Responsive?](http://ami.responsivedesign.is/).
