@@ -92,6 +92,8 @@ image on smaller devices.
 * On very large screen devices the book items on the 'works' page would spread out quite far apart, this was also 
 fixed with a 'media query' setting a max-width of 80% for the books container on screens larger than 1200px.
 
+* On older versions of safari on apple devices, the 'new-book.jpg' fails to load, I have not yet resolved this issue.
+
 ## Devices 
 
 In addition to emulated devices in chrome dev tools the Website was inspected on the following physical devices:
@@ -101,7 +103,12 @@ In addition to emulated devices in chrome dev tools the Website was inspected on
 * Apple Macbook Air 2017
 * Apple iphone 6s
 
-
+## Browsers used
+* Google Chrome on Windows 10
+* Microsoft Edge on Windows 10
+* Firefox on Windows 10
+* Safari on Mac OS
+* Safari on ios
 
 
 
