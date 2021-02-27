@@ -41,7 +41,6 @@ steming from visitors who come to the site specificlly looking to buy his books,
 The website is designed to be aesthetically pleasing while having full featured navagation options, the classic color palate and fonts which extend across
 the whole site, allow for easy viewing of the different elements.
 
-### Existing Features:
 
 ### Home Page
 
@@ -80,8 +79,8 @@ speaking egagements etc., the form would then but pushed to authors publisher.
 ## Features Left to Implement
 
 * More media content in the form of published interviews, video interviews, and also podcast / radio appearances.
-* An on site purchase system, so that the visitor is not dericted to an external webite in order to purchase.
-* The option to change the written language of the page for non english speaking visitors
+* An on site purchase system, so that the visitor is not directed to an external website in order to purchase.
+* The option to change the written language of the page for non english speaking visitors.
 
 ## Technologies Used
 

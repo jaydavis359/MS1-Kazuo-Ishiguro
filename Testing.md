@@ -1,7 +1,9 @@
 # Testing
 
 * All HTML code verified through [W3C HTML Validation Service](https://validator.w3.org/).
+HTML Code was run through this validator, and no issues were found.
 * All CSS code verified through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+CSS code was run through this validator and no issues were found.
 * Basic responsiveness checked through [Am I Responsive?](http://ami.responsivedesign.is/).
 * [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) - was in constant use throughout the 
 project to check responsiveness and to check formatting, margins, font size etc. on the fly.
@@ -10,7 +12,7 @@ project to check responsiveness and to check formatting, margins, font size etc.
 
 * 'As a visitor to the website, I want the navagation to be instantly Understandable.' 
 This I think has been achieved succesfully, the navbar you are greeted with on the home page, appears identically
-across the entire website, and its headings completly unambigious.
+across the entire website, and its headings are unambigious.
 * 'As a visiter to the website, I want to learn more about the author and his background.'
 This is dealt with by the 'About' page which has an edited [Wikipedia](https://en.wikipedia.org/wiki/Kazuo_Ishiguro)
 bio, and a video with the author.

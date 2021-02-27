@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-
 header {
     margin: 0;
 }
@@ -21,18 +20,15 @@ h1 {
 
 @media screen and (max-width: 568px) {
     h1 {
-        font-family: "PT-serif";
         letter-spacing: 0;
         padding-left: 10px;
         padding-top: 4px;
     }
 }
 
-
 .navbar a {
     text-decoration: none;
 }
-
 
 .nav-item {
     padding-right: 2rem;
@@ -41,18 +37,20 @@ h1 {
 }
 
 .navbar-toggler {
-    border:0px;
+    border: 0px;
 }
 
 @media screen and (max-width: 600px) {
     .navbar {
         padding: 0;
+        padding-left: 3px;
     }
 }
 
 .fixed-top {
     margin-bottom: 0;
 }
+
 
 /* Landing Image */
 
@@ -71,8 +69,8 @@ h1 {
     position: relative;
     left: 48%;
     top: 30%;
-    
 }
+
 .jumbotron {
     margin-bottom: 0;
     background-color: #343a40;
@@ -112,6 +110,7 @@ h1 {
     background-color: #c5a374;
 }
 
+
 /* footer customisations */
 
 footer {
@@ -119,7 +118,6 @@ footer {
     color: #c5a374;
     margin-bottom: 0;
 }
-
 
 .footer-content {
     padding-top: 2rem;
@@ -142,7 +140,9 @@ footer {
     margin-left: 4px;
 }
 
+
 /* social links with help from resume project */
+
 .social-links li a i {
     font-size: 30px;
     color: #c5a374;
@@ -154,10 +154,10 @@ footer {
     color: white;
 }
 
-
 .disclaimer {
     padding-top: 2rem;
 }
+
 
 /* About the author page */
 
@@ -198,9 +198,10 @@ footer {
 
 .embed-responsive-item {
     width: 90%;
-    height:90%;
+    height: 90%;
     object-fit: contain;
 }
+
 
 /* Works page */
 
@@ -209,18 +210,20 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-.books-container { 
-    max-width: 80%;
-}
+    .books-container {
+        max-width: 1200px;
+    }
 }
 
 @media screen and (max-width: 667px) {
-.books-container {
-    padding-top: 2rem;
-}
+    .books-container {
+        padding-top: 2rem;
+    }
 }
 
+
 /* Thank you stackoverflow for card centering! */
+
 .card {
     margin: 0 auto;
     margin-bottom: 4rem;
@@ -247,6 +250,7 @@ footer {
 .fa-goodreads {
     margin-left: 6px;
 }
+
 
 /* Contact Page */
 
@@ -278,13 +282,12 @@ footer {
 }
 
 @media screen and (max-width: 667px) {
-.agent-text {
-    margin-bottom: 6rem;
-}
+    .agent-text {
+        margin-bottom: 6rem;
+    }
 }
 
 .fa-book-open {
     color: #343a40;
-    margin-right: 4px; 
+    margin-right: 4px;
 }
- 
